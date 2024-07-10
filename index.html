@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href = "https://unsplash.com/photos/do-something-great-neon-sign-oqStl2L5oxI">
+</head>
+<body>
+    <div class="container">
+        <img src = "https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero Image" class="hero-image">
+
+  
+    
+    <section class="hero">
+        <button id="ContactUs">Contact Us</button>
+    </section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn">&times;</span> 
+            <form id="contactForm"> 
+                <h2>Let's get in Touch</h2>
+
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <span class="error" id="nameError"></span>
+
+                <label for="address">Address</label> 
+                <input type="text" name="address" id="address" placeholder="Enter your address">
+                <span class="error" id="addressError"></span>
+
+                <label for="phone">Phone Number</label> 
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number">
+                <span class="error" id="phoneError"></span>
+
+                <label for="email">Email</label> 
+                <input type="text" name="email" id="email" placeholder="Enter your email">
+                <span class="error" id="emailError"></span>
+
+                <label for="message">Message</label> 
+                <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                <span class="error" id="messageError"></span>
+
+                <button type="submit">Send</button>
+            </form> 
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
